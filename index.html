@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aleksi Lehtomäki — Energy Engineer</title>
+<meta name="description" content="Aleksi Lehtomäki, an energy engineer who simulates, tests, and builds the tools to make it work. CV and profile for recruiters.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="#top">Aleksi Lehtomäki</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#profile" data-i18n="nav.profile">Profile</a>
+      <a href="#whatido" data-i18n="nav.whatido">What I do</a>
+      <a href="#why" data-i18n="nav.why">What I'm looking for</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#education" data-i18n="nav.education">Education</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+      <span class="lang-opt" data-lang-opt="en">EN</span><span class="lang-sep">/</span><span class="lang-opt" data-lang-opt="fi">FI</span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Looking for my next challenge</p>
+      <h1>Aleksi Lehtomäki</h1>
+      <p class="headline" data-i18n="hero.headline">Energy Engineer Who Makes Complex Systems Work</p>
+      <p class="lede" data-i18n="hero.lede">I'm an MSc energy engineer who models and simulates complex energy systems, tests them in practice, and writes the Python tools that make the whole process faster.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/aleksi-lehtomaki-cv.pdf" download>
+          <span data-i18n="hero.downloadCv">Download CV (PDF)</span>
+        </a>
+        <a class="btn btn-ghost" href="mailto:aleksi.lehtomaki@darkkis.fi">
+          <span data-i18n="hero.emailMe">Email me</span>
+        </a>
+      </div>
+      <p class="hero-meta">
+        <span data-i18n="hero.location">Lappeenranta, Finland</span>
+        <span class="meta-sep">·</span>
+        <a href="mailto:aleksi.lehtomaki@darkkis.fi">aleksi.lehtomaki@darkkis.fi</a>
+        <span class="meta-sep">·</span>
+        <a href="tel:+358404109019">+358 40 410 9019</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="profile" class="section">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.profile">Profile</h2>
+      <p class="body-text" data-i18n="profile.text">
+        My background is in modelling and simulating complex energy systems: CFD, thermal analysis, and process behaviour,
+        with turbomachinery among the domains I've worked in.
+        Most of my work lives in the overlap: fluid flow, heat transfer, process engineering, simulation, R&amp;D, and optimisation,
+        plus whatever custom tool gets the job done faster.
+        Comfortable in Linux and HPC environments.
+      </p>
+    </div>
+  </section>
+
+  <section id="whatido" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.whatido">What I do</h2>
+      <div class="expand" id="whatidoExpand">
+        <button type="button" class="expand-toggle" id="whatidoToggle" aria-expanded="false" aria-controls="whatidoPanel">
+          <span data-i18n="whatido.summary">See what that looks like day to day</span>
+          <span class="expand-caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="expand-rows" id="whatidoPanel">
+          <div class="expand-inner">
+            <ul class="expand-list">
+              <li data-i18n="whatido.b1">Setting up and running CFD simulations from start to finish: meshing, boundary conditions, results</li>
+              <li data-i18n="whatido.b2">Planning test campaigns: what to measure, how to instrument it, and what the data actually needs to tell us</li>
+              <li data-i18n="whatido.b3">Digging through test and simulation data to see whether the design does what it's supposed to</li>
+              <li data-i18n="whatido.b4">Building process models so we get a picture of how a system behaves before it's even built</li>
+              <li data-i18n="whatido.b5">Writing Python tools once doing the same thing by hand for the fifth time stops making sense</li>
+              <li data-i18n="whatido.b6">Working with mechanical, electrical, and test teams to keep gas turbine R&amp;D moving</li>
+              <li data-i18n="whatido.b7">Writing things down so the next person doesn't have to redo the work</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="section">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.why">What I'm looking for</h2>
+      <div class="body-text">
+        <p data-i18n="why.p1">Three years into my current job, I've become the person people come to for CFD, testing, process modelling, and tooling, often all at once. I've picked up a fair number of different roles along the way, and honestly, I'd like to put a few of them down. What I want now is more focus: room to take one hard problem all the way to a solid result, instead of juggling ten things at once.</p>
+        <p data-i18n="why.p2">I also want my work to point somewhere I actually believe in. That's why I got into energy engineering in the first place: I wanted a career that moves things in the right direction. I'm especially interested in renewable energy, emissions reduction, and efficiency work — the kind of thing that's a footnote in a lot of job ads but would actually be the job here.</p>
+        <p data-i18n="why.p3">I'm open to relocating within Finland if the job's worth it. I'm not looking for just any next step: I want something genuinely interesting, technically deep, and worth doing properly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.experience">Experience</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <h3 data-i18n="exp1.role">Simulation Engineer</h3>
+              <p class="timeline-sub">
+                <span data-i18n="exp1.company">Aurelia Turbines Oy</span> · <span data-i18n="exp1.location">Lappeenranta</span>
+              </p>
+            </div>
+            <span class="timeline-dates" data-i18n="exp1.dates">2023 — Present</span>
+          </div>
+          <ul>
+            <li data-i18n="exp1.b1">Run CFD simulations and analyses independently using Cadence Fidelity</li>
+            <li data-i18n="exp1.b2">Plan test rigs and instrumentation, and take part in testing</li>
+            <li data-i18n="exp1.b3">Analyse simulation and test data to validate models and performance</li>
+            <li data-i18n="exp1.b4">Process simulation with OpenModelica</li>
+            <li data-i18n="exp1.b5">Build Python tools to automate workflows and speed up analysis</li>
+            <li data-i18n="exp1.b6">Involved in gas turbine R&amp;D, at both component and system level</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <h3 data-i18n="exp2.role">EN–FI Translator</h3>
+              <p class="timeline-sub"><span data-i18n="exp2.company">Self-employed</span></p>
+            </div>
+            <span class="timeline-dates" data-i18n="exp2.dates">2018 — 2025</span>
+          </div>
+          <ul>
+            <li data-i18n="exp2.b1">Translated technical and commercial texts across a bunch of different fields</li>
+            <li data-i18n="exp2.b2">Handled client relationships, sales, and project delivery myself</li>
+            <li data-i18n="exp2.b3">Took care of bookkeeping and the rest of running the business</li>
+            <li data-i18n="exp2.b4">Wrote other content too, like marketing copy and SEO texts</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.education">Education</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <h3 data-i18n="edu1.degree">MSc (Technology), Bioenergy Systems</h3>
+              <p class="timeline-sub"><span data-i18n="edu1.school">LUT University</span> · <span data-i18n="edu1.location">Lappeenranta</span></p>
+            </div>
+            <span class="timeline-dates" data-i18n="edu1.dates">2016 — 2024</span>
+          </div>
+          <p class="timeline-note" data-i18n="edu1.note">Minor in Electrical Engineering (BSc), plus an extended major for the MSc.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.skills">Skills</h2>
+      <p class="tag-line">
+        <span data-i18n="skill.1">CFD</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.2">Process simulation (Modelica)</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.3">Thermal engineering</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.4">Fluid engineering</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.5">Optimisation</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.6">Engineering problem solving</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.7">Turbomachinery</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.8">Python</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.9">MATLAB</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.10">Linux</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.11">HPC</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.12">Slurm</span>
+      </p>
+
+      <h3 class="sub-heading" data-i18n="section.languages">Languages</h3>
+      <p class="tag-line">
+        <span><span data-i18n="lang.fi.name">Finnish</span> — <span data-i18n="lang.fi.level">Native</span></span><span class="tag-sep">/</span>
+        <span><span data-i18n="lang.en.name">English</span> — <span data-i18n="lang.en.level">Fluent</span></span><span class="tag-sep">/</span>
+        <span><span data-i18n="lang.sv.name">Swedish</span> — <span data-i18n="lang.sv.level">Basics</span></span>
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-cta">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="section.contact">Contact</h2>
+      <p class="cta-text" data-i18n="contact.text">Open to relocating within Finland for the right role. If this sounds like a fit, let's talk.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:aleksi.lehtomaki@darkkis.fi">
+          <span data-i18n="hero.emailMe">Email me</span>
+        </a>
+        <a class="btn btn-ghost" href="assets/aleksi-lehtomaki-cv.pdf" download>
+          <span data-i18n="hero.downloadCv">Download CV (PDF)</span>
+        </a>
+      </div>
+      <p class="hero-meta">
+        <a href="mailto:aleksi.lehtomaki@darkkis.fi">aleksi.lehtomaki@darkkis.fi</a>
+        <span class="meta-sep">·</span>
+        <a href="tel:+358404109019">+358 40 410 9019</a>
+        <span class="meta-sep">·</span>
+        <span data-i18n="hero.location">Lappeenranta, Finland</span>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Aleksi Lehtomäki</p>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
