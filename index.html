@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aleksi Lehtomäki — Energy Engineer</title>
-<meta name="description" content="Aleksi Lehtomäki, an energy engineer who simulates, tests, and builds the tools to make it work. CV and profile for recruiters.">
+<meta name="description" content="Aleksi Lehtomäki, MSc (Tech.) energy engineer with a foundation in energy systems, thermal and fluid engineering, and strong modelling and simulation skills. CV, cover letter and contact details.">
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +18,8 @@
     <a class="brand" href="#top">Aleksi Lehtomäki</a>
     <nav class="main-nav" aria-label="Primary">
       <a href="#profile" data-i18n="nav.profile">Profile</a>
-      <a href="#whatido" data-i18n="nav.whatido">What I do</a>
-      <a href="#why" data-i18n="nav.why">What I'm looking for</a>
+      <a href="#letter" data-i18n="nav.letter">Cover letter</a>
+      <a href="#strengths" data-i18n="nav.strengths">What I bring</a>
       <a href="#experience" data-i18n="nav.experience">Experience</a>
       <a href="#education" data-i18n="nav.education">Education</a>
       <a href="#skills" data-i18n="nav.skills">Skills</a>
@@ -35,12 +35,12 @@
 
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow" data-i18n="hero.eyebrow">Looking for my next challenge</p>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Open to new opportunities</p>
       <h1>Aleksi Lehtomäki</h1>
-      <p class="headline" data-i18n="hero.headline">Energy Engineer Who Makes Complex Systems Work</p>
-      <p class="lede" data-i18n="hero.lede">I'm an MSc energy engineer who models and simulates complex energy systems, tests them in practice, and writes the Python tools that make the whole process faster.</p>
+      <p class="headline" data-i18n="hero.headline">Energy Engineer (MSc Tech.) | Simulation, models, analysis</p>
+      <p class="lede" data-i18n="hero.lede">I develop energy systems and the understanding of their functionality and effectiveness, from the details all the way to system level, through technical computing, code and modelling.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="assets/aleksi-lehtomaki-cv.pdf" download>
+        <a class="btn btn-primary" href="assets/aleksi-lehtomaki-cv.pdf" data-i18n-href="cv.href" download>
           <span data-i18n="hero.downloadCv">Download CV (PDF)</span>
         </a>
         <a class="btn btn-ghost" href="mailto:aleksi.lehtomaki@darkkis.fi">
@@ -61,47 +61,54 @@
     <div class="wrap">
       <h2 class="section-title" data-i18n="section.profile">Profile</h2>
       <p class="body-text" data-i18n="profile.text">
-        My background is in modelling and simulating complex energy systems: CFD, thermal analysis, and process behaviour,
-        with turbomachinery among the domains I've worked in.
-        Most of my work lives in the overlap: fluid flow, heat transfer, process engineering, simulation, R&amp;D, and optimisation,
-        plus whatever custom tool gets the job done faster.
-        Comfortable in Linux and HPC environments.
+        I am an energy engineer with an MSc (Tech.) from LUT University. I have a solid foundation in energy systems, thermal and fluid engineering, and energy economics. I joined Aurelia Turbines to write my master's thesis, in which I built a dynamic OpenModelica model of the company's gas turbine as the foundation for a digital twin. I also developed Python middleware that serves as the interface between the model, exported as an FMU, and the Beckhoff TwinCAT automation system over ADS. After graduating, I continued as a simulation engineer in gas turbine R&amp;D. My work covers CFD analysis, process modelling, test planning and data analysis. I also often develop Python-based tools to support both my own work and my colleagues'. I am familiar with Linux and HPC environments. I write and speak fluent Finnish and English.
       </p>
     </div>
   </section>
 
-  <section id="whatido" class="section section-alt">
+  <section id="letter" class="section section-alt">
     <div class="wrap">
-      <h2 class="section-title" data-i18n="section.whatido">What I do</h2>
-      <div class="expand" id="whatidoExpand">
-        <button type="button" class="expand-toggle" id="whatidoToggle" aria-expanded="false" aria-controls="whatidoPanel">
-          <span data-i18n="whatido.summary">See what that looks like day to day</span>
-          <span class="expand-caret" aria-hidden="true">▾</span>
-        </button>
-        <div class="expand-rows" id="whatidoPanel">
-          <div class="expand-inner">
-            <ul class="expand-list">
-              <li data-i18n="whatido.b1">Setting up and running CFD simulations from start to finish: meshing, boundary conditions, results</li>
-              <li data-i18n="whatido.b2">Planning test campaigns: what to measure, how to instrument it, and what the data actually needs to tell us</li>
-              <li data-i18n="whatido.b3">Digging through test and simulation data to see whether the design does what it's supposed to</li>
-              <li data-i18n="whatido.b4">Building process models so we get a picture of how a system behaves before it's even built</li>
-              <li data-i18n="whatido.b5">Writing Python tools once doing the same thing by hand for the fifth time stops making sense</li>
-              <li data-i18n="whatido.b6">Working with mechanical, electrical, and test teams to keep gas turbine R&amp;D moving</li>
-              <li data-i18n="whatido.b7">Writing things down so the next person doesn't have to redo the work</li>
-            </ul>
-          </div>
-        </div>
+      <h2 class="section-title" data-i18n="section.letter">Cover letter</h2>
+      <div class="letter body-text">
+        <p data-i18n="letter.greeting">Dear hiring team,</p>
+        <p data-i18n="letter.p1">I am an energy engineer (MSc Tech.). I chose the field because I wanted to do work that I believe in and that matters, and that still motivates me today. I want to help develop the technology the energy transition needs. I am particularly interested in renewable energy, emissions reduction and energy efficiency, whether in energy production, district heating, industrial processes or new energy technology.</p>
+        <p data-i18n="letter.p2">Since 2023, I have worked in gas turbine R&amp;D at Aurelia Turbines, first on my master's thesis and then as a simulation engineer. The work has shown me what I enjoy most: understanding a system all the way from the behaviour of a single component to the performance of the whole, and working with mechanical, electrical and test engineers to get there. When something keeps repeating, I would rather build a tool for it than do it by hand again.</p>
+        <p data-i18n="letter.p3">Simulation is one of my strongest tools, but I see myself first and foremost as an energy engineer. I am just as keen to put my understanding of energy systems to use in design, development and analysis as in modelling, and I am also interested in project work. Alongside my studies and work, I also worked for years as a self-employed translator. As the only person in the business, I handled everything myself: finding clients, delivering the work and keeping the books. That is why I know I can manage my work independently and reliably.</p>
+        <p data-i18n="letter.p4">In my next role, I am looking for clear focus: the chance to take on demanding technical problems and solve them properly, all the way to the end. I do my best work when I can solve a problem right the first time instead of relying on quick fixes and shortcuts, and I thrive where careful engineering and quality are valued. I am open to relocating within Finland for the right position.</p>
+        <p data-i18n="letter.p5">I would be glad to tell you more about my experience and how I could strengthen your team.</p>
+        <p class="letter-sign"><span data-i18n="letter.closing">Kind regards,</span><br><span class="letter-name">Aleksi Lehtomäki</span></p>
       </div>
     </div>
   </section>
 
-  <section id="why" class="section">
+  <section id="strengths" class="section">
     <div class="wrap">
-      <h2 class="section-title" data-i18n="section.why">What I'm looking for</h2>
-      <div class="body-text">
-        <p data-i18n="why.p1">Three years into my current job, I've become the person people come to for CFD, testing, process modelling, and tooling, often all at once. I've picked up a fair number of different roles along the way, and honestly, I'd like to put a few of them down. What I want now is more focus: room to take one hard problem all the way to a solid result, instead of juggling ten things at once.</p>
-        <p data-i18n="why.p2">I also want my work to point somewhere I actually believe in. That's why I got into energy engineering in the first place: I wanted a career that moves things in the right direction. I'm especially interested in renewable energy, emissions reduction, and efficiency work — the kind of thing that's a footnote in a lot of job ads but would actually be the job here.</p>
-        <p data-i18n="why.p3">I'm open to relocating within Finland if the job's worth it. I'm not looking for just any next step: I want something genuinely interesting, technically deep, and worth doing properly.</p>
+      <h2 class="section-title" data-i18n="section.strengths">What I bring</h2>
+      <div class="cards">
+        <article class="card">
+          <h3 data-i18n="str1.title">Energy systems understanding</h3>
+          <p data-i18n="str1.text">A broad foundation from my energy technology degree: energy conversion from fuel to heat and power, power plant and boiler technology, fluid machinery and energy economics. I can assess solutions from both a technical and an economic perspective.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="str2.title">Modelling at the right level of detail</h3>
+          <p data-i18n="str2.text">From detailed CFD of flow and heat transfer to dynamic system models of a complete gas turbine. I choose the approach that answers the question, and I know what each model can and cannot tell us.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="str3.title">Connecting models to measurements</h3>
+          <p data-i18n="str3.text">Planning tests and instrumentation, analysing measured data, and using it to validate models and verify performance. A model can only be trusted once it has been checked against reality.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="str4.title">Programming and automation</h3>
+          <p data-i18n="str4.text">Python tools that automate workflows and speed up analysis, along with MATLAB and experience running computations on Linux-based HPC clusters with Slurm.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="str5.title">Cross-disciplinary collaboration</h3>
+          <p data-i18n="str5.text">Product development work together with mechanical, electrical and test engineers. A minor in electrical engineering also helps me understand the electrical side's perspective.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="str6.title">Clear communication</h3>
+          <p data-i18n="str6.text">Years of professional technical translation have made me a precise writer in both Finnish and English. I document my work so that others can build on it.</p>
+        </article>
       </div>
     </div>
   </section>
@@ -119,31 +126,50 @@
                 <span data-i18n="exp1.company">Aurelia Turbines Oy</span> · <span data-i18n="exp1.location">Lappeenranta</span>
               </p>
             </div>
-            <span class="timeline-dates" data-i18n="exp1.dates">2023 — Present</span>
+            <span class="timeline-dates" data-i18n="exp1.dates">2024–present</span>
           </div>
           <ul>
-            <li data-i18n="exp1.b1">Run CFD simulations and analyses independently using Cadence Fidelity</li>
-            <li data-i18n="exp1.b2">Plan test rigs and instrumentation, and take part in testing</li>
-            <li data-i18n="exp1.b3">Analyse simulation and test data to validate models and performance</li>
-            <li data-i18n="exp1.b4">Process simulation with OpenModelica</li>
-            <li data-i18n="exp1.b5">Build Python tools to automate workflows and speed up analysis</li>
-            <li data-i18n="exp1.b6">Involved in gas turbine R&amp;D, at both component and system level</li>
+            <li data-i18n="exp1.b1">Gas turbine research and development at both component and system level</li>
+            <li data-i18n="exp1.b2">Independent CFD simulations and analyses using Cadence Fidelity</li>
+            <li data-i18n="exp1.b3">System-level process modelling and simulation in OpenModelica</li>
+            <li data-i18n="exp1.b4">Planning of test rigs and instrumentation, and participation in testing</li>
+            <li data-i18n="exp1.b5">Analysis of simulation and test data to validate models and verify performance</li>
+            <li data-i18n="exp1.b6">Development of Python tools that automate workflows and speed up analysis</li>
+            <li data-i18n="exp1.b7">Close collaboration with mechanical, electrical and test teams</li>
           </ul>
         </article>
 
         <article class="timeline-item">
           <div class="timeline-head">
             <div>
-              <h3 data-i18n="exp2.role">EN–FI Translator</h3>
-              <p class="timeline-sub"><span data-i18n="exp2.company">Self-employed</span></p>
+              <h3 data-i18n="exp0.role">Master's Thesis Student</h3>
+              <p class="timeline-sub">
+                <span data-i18n="exp1.company">Aurelia Turbines Oy</span> · <span data-i18n="exp1.location">Lappeenranta</span>
+              </p>
             </div>
-            <span class="timeline-dates" data-i18n="exp2.dates">2018 — 2025</span>
+            <span class="timeline-dates" data-i18n="exp0.dates">9/2023–2/2024</span>
           </div>
           <ul>
-            <li data-i18n="exp2.b1">Translated technical and commercial texts across a bunch of different fields</li>
-            <li data-i18n="exp2.b2">Handled client relationships, sales, and project delivery myself</li>
-            <li data-i18n="exp2.b3">Took care of bookkeeping and the rest of running the business</li>
-            <li data-i18n="exp2.b4">Wrote other content too, like marketing copy and SEO texts</li>
+            <li data-i18n="exp0.b1">Built a dynamic system model of the company's gas turbine in OpenModelica as the foundation for a digital twin</li>
+            <li data-i18n="exp0.b2">Developed Python middleware as the interface between the FMU-exported model and the Beckhoff TwinCAT automation system (ADS)</li>
+            <li data-i18n="exp0.b3">First application: testing the turbine's automation software virtually during development</li>
+          </ul>
+          <p class="timeline-link"><a href="https://lutpub.lut.fi/handle/10024/167219" target="_blank" rel="noopener" data-i18n="thesis.read">Read the thesis (LUTPub)</a></p>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <h3 data-i18n="exp2.role">English–Finnish Translator</h3>
+              <p class="timeline-sub"><span data-i18n="exp2.company">Self-employed</span></p>
+            </div>
+            <span class="timeline-dates" data-i18n="exp2.dates">2018–2025</span>
+          </div>
+          <ul>
+            <li data-i18n="exp2.b1">Technical and commercial translation across a wide range of fields</li>
+            <li data-i18n="exp2.b2">Independent management of B2B client relationships, sales and project delivery</li>
+            <li data-i18n="exp2.b3">Accounting and other aspects of running the business</li>
+            <li data-i18n="exp2.b4">Other written content, including marketing copy and SEO texts</li>
           </ul>
         </article>
       </div>
@@ -157,12 +183,14 @@
         <article class="timeline-item">
           <div class="timeline-head">
             <div>
-              <h3 data-i18n="edu1.degree">MSc (Technology), Bioenergy Systems</h3>
+              <h3 data-i18n="edu1.degree">MSc (Tech.), Energy Technology: Bioenergy Systems</h3>
               <p class="timeline-sub"><span data-i18n="edu1.school">LUT University</span> · <span data-i18n="edu1.location">Lappeenranta</span></p>
             </div>
-            <span class="timeline-dates" data-i18n="edu1.dates">2016 — 2024</span>
+            <span class="timeline-dates" data-i18n="edu1.dates">2016–2024</span>
           </div>
-          <p class="timeline-note" data-i18n="edu1.note">Minor in Electrical Engineering (BSc), plus an extended major for the MSc.</p>
+          <p class="timeline-note"><span data-i18n="edu1.thesisLabel">Master's thesis:</span> <a href="https://lutpub.lut.fi/handle/10024/167219" target="_blank" rel="noopener">Digital twin model for a gas turbine</a> <span data-i18n="edu1.thesisFor">(commissioned by Aurelia Turbines Oy)</span></p>
+          <p class="timeline-note" data-i18n="edu1.content">The major covered the energy chain from fuels to heat and power: energy systems, bioenergy technology, power plant design, steam boilers, fluid machinery and energy economics.</p>
+          <p class="timeline-note" data-i18n="edu1.note">Minor in electrical engineering in the BSc degree; MSc completed with an extended major.</p>
         </article>
       </div>
     </div>
@@ -171,26 +199,40 @@
   <section id="skills" class="section section-alt">
     <div class="wrap">
       <h2 class="section-title" data-i18n="section.skills">Skills</h2>
+
+      <h3 class="sub-heading sub-heading-first" data-i18n="skills.eng">Engineering</h3>
       <p class="tag-line">
-        <span data-i18n="skill.1">CFD</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.2">Process simulation (Modelica)</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.3">Thermal engineering</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.4">Fluid engineering</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.5">Optimisation</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.6">Engineering problem solving</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.7">Turbomachinery</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.8">Python</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.9">MATLAB</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.10">Linux</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.11">HPC</span><span class="tag-sep">/</span>
-        <span data-i18n="skill.12">Slurm</span>
+        <span data-i18n="skill.eng1">Energy systems</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.eng2">Thermal engineering</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.eng3">Fluid engineering</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.eng4">Turbomachinery</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.eng5">Testing and instrumentation</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.eng6">Optimisation</span>
+      </p>
+
+      <h3 class="sub-heading" data-i18n="skills.sim">Modelling and simulation</h3>
+      <p class="tag-line">
+        <span data-i18n="skill.sim1">CFD (Cadence Fidelity)</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.sim2">Process simulation (OpenModelica)</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.sim3">Dynamic system modelling</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.sim4">Data analysis (Python, pandas)</span>
+      </p>
+
+      <h3 class="sub-heading" data-i18n="skills.code">Programming and computing</h3>
+      <p class="tag-line">
+        <span>Python</span><span class="tag-sep">/</span>
+        <span>MATLAB</span><span class="tag-sep">/</span>
+        <span data-i18n="skill.code1">Automation and control systems (Beckhoff TwinCAT)</span><span class="tag-sep">/</span>
+        <span>Linux</span><span class="tag-sep">/</span>
+        <span>HPC</span><span class="tag-sep">/</span>
+        <span>Slurm</span>
       </p>
 
       <h3 class="sub-heading" data-i18n="section.languages">Languages</h3>
       <p class="tag-line">
-        <span><span data-i18n="lang.fi.name">Finnish</span> — <span data-i18n="lang.fi.level">Native</span></span><span class="tag-sep">/</span>
-        <span><span data-i18n="lang.en.name">English</span> — <span data-i18n="lang.en.level">Fluent</span></span><span class="tag-sep">/</span>
-        <span><span data-i18n="lang.sv.name">Swedish</span> — <span data-i18n="lang.sv.level">Basics</span></span>
+        <span><span data-i18n="lang.fi.name">Finnish</span> — <span data-i18n="lang.fi.level">native</span></span><span class="tag-sep">/</span>
+        <span><span data-i18n="lang.en.name">English</span> — <span data-i18n="lang.en.level">fluent</span></span><span class="tag-sep">/</span>
+        <span><span data-i18n="lang.sv.name">Swedish</span> — <span data-i18n="lang.sv.level">basic</span></span>
       </p>
     </div>
   </section>
@@ -198,12 +240,12 @@
   <section id="contact" class="section section-cta">
     <div class="wrap">
       <h2 class="section-title" data-i18n="section.contact">Contact</h2>
-      <p class="cta-text" data-i18n="contact.text">Open to relocating within Finland for the right role. If this sounds like a fit, let's talk.</p>
+      <p class="cta-text" data-i18n="contact.text">I am open to relocating within Finland for the right role. If my background sounds like a good fit, please get in touch.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="mailto:aleksi.lehtomaki@darkkis.fi">
           <span data-i18n="hero.emailMe">Email me</span>
         </a>
-        <a class="btn btn-ghost" href="assets/aleksi-lehtomaki-cv.pdf" download>
+        <a class="btn btn-ghost" href="assets/aleksi-lehtomaki-cv.pdf" data-i18n-href="cv.href" download>
           <span data-i18n="hero.downloadCv">Download CV (PDF)</span>
         </a>
       </div>
@@ -214,6 +256,10 @@
         <span class="meta-sep">·</span>
         <span data-i18n="hero.location">Lappeenranta, Finland</span>
       </p>
+      <div class="cta-aside">
+        <p data-i18n="contact.aside">If you read this far, take a look at whose extensive tuna habits my salary enables.</p>
+        <a class="aside-link" href="https://darkkis.fi" target="_blank" rel="noopener"><span data-i18n="contact.asideCta">Meet the remote work assistant</span> <span aria-hidden="true">→</span></a>
+      </div>
     </div>
   </section>
 
